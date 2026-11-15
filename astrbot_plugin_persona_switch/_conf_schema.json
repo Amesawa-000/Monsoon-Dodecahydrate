@@ -1,0 +1,20 @@
+{
+  "admin_only": {
+    "description": "仅管理员可切换人格",
+    "type": "bool",
+    "default": false,
+    "hint": "关闭时，任意用户都能切换当前对话的人格；开启后只有 AstrBot 管理员（WebUI 配置中的 admins_id）可以使用。群聊场景建议开启。"
+  },
+  "show_prompt_preview": {
+    "description": "在人格列表中显示提示词摘要",
+    "type": "bool",
+    "default": false,
+    "hint": "开启后，每个人格名称下方会显示其 system prompt 的前 30 个字符。"
+  },
+  "max_list_items": {
+    "description": "人格列表最多显示数量",
+    "type": "int",
+    "default": 30,
+    "hint": "人格较多时只显示前 N 个，超出部分仍可通过序号或名称切换。取值范围 1-100。"
+  }
+}

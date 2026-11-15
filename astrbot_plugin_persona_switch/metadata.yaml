@@ -1,0 +1,19 @@
+name: astrbot_plugin_persona_switch
+display_name: 人格切换
+short_desc: 用 /persona 指令查看与切换 AI 人格
+desc: 通过 /persona 指令查看当前会话的人格列表，按名称或序号切换人格，支持一键恢复默认人格；切换结果只影响当前对话，并会写入数据库长期保留。
+version: 1.0.0
+author: 十二水合季风
+support_platforms:
+  - aiocqhttp
+  - qq_official
+  - telegram
+  - discord
+  - slack
+  - kook
+  - lark
+  - dingtalk
+  - wecom
+  - satori
+  - webchat
+astrbot_version: ">=4.23.0"
